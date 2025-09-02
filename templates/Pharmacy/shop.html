@@ -227,13 +227,11 @@
   </script>
 
   {% if messages %}
-  <script>
-      {% for message in messages %}
-          $(document).ready(function () {
-              $('.toast').toast('show');
-          });
-      {% endfor %}
-  </script>
+    <script>
+      $(document).ready(function () {
+        $('.toast').toast('show');
+      });
+    </script>
   {% endif %}
 
 
